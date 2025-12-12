@@ -6,6 +6,7 @@
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{biblatex}
+\usepackage{float}
 
 \addbibresource{referencie.bib}
 
@@ -44,6 +45,7 @@
 
 
 \tableofcontents
+\listoffigures
 
 \newpage
 
@@ -106,7 +108,13 @@ Autonómne vozidlá predstavujú jednu z najtransformujúcejších aplikácií A
 
 \subsection{Digitálne dvojčatá}
 ,,Digitálne dvojčatá sú virtuálnymi replikami fyzických aktív alebo systémov, ktoré využívajú údaje v reálnom čase na simuláciu, analýzu a optimalizáciu operácií'' \cite{tech_report_2025}. 
-,,Washington State Department of Transportation (WSDOT) vyvinul digitálne dvojča plávajúceho mosta I-90, čo viedlo k vylepšenému monitorovaniu konštrukcie a odhadovanému návratu investícií až 2000\% ''\cite{tech_report_2025}.
+Ako je znázornené na obrázku \ref{fig:digital_twin}, táto technológia umožňuje vytvorenie komplexného prepojenia medzi fyzickou infraštruktúrou a jej digitálnym modelom.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{digitalnedvojca.png}
+    \caption{Schéma digitálneho dvojčaťa mostu. Zobrazený je proces prepojenia fyzického mostu s jeho virtuálnym modelom, vrátane monitorovania záťaže, identifikácie poškodenia, vyhodnocovania výkonu a systémov včasného varovania.(Zdroj:\cite{Kang2021}) }
+    \label{fig:digital_twin}
+\end{figure}
 
 \subsection{Generatívna AI}
 Generatívna AI nachádza uplatnenie v doprave najmä v autonómnej jazde, predikcii premávky a tvorbe realistických simulačných scenárov. 
@@ -157,9 +165,24 @@ Generatívna AI prináša kvalitatívny skok tým, že dokáže generovať nový
 
 \section{Technologická infraštruktúra}
 
-\subsection{Senzory a IoT}
-,,Dopravné systémy sú nasýtené senzormi (kamery, radary, GPS), ktoré tvoria internet vecí a produkujú dáta pre AI analýzy'' \cite{EPRS_2019}.
+\subsection{Senzory}
+,,Dopravné systémy sú nasýtené senzormi (kamery, radary, GPS), ktoré tvoria internet vecí a produkujú dáta pre AI analýzy'' \cite{EPRS_2019}. 
+Typickú konfiguráciu takýchto senzorov v autonómnom vozidle ilustruje obrázok \ref{fig:sensors}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{autonomouscarsensors.png}
+    \caption{Ilustrácia senzorového systému autonómneho vozidla. Zobrazené sú typické senzory: dlhodosahový radar vpredu, dlhodosahový LiDAR vpredu, predná kamera, okolité kamery, 360° otočný LiDAR, bočné radary a LiDARy so širokým zorným poľom, ako aj riadiaca jednotka ADAS/AD. (Zdroj: IDTechEx Research)}
+    \label{fig:sensors}
+\end{figure}
 
+\noindent\textbf{Vysvetlenie jednotlivých komponentov:}
+
+\begin{itemize}
+    \item \textbf{Radar:} Vhodný na meranie rýchlosti a vzdialenosti, funguje za akéhokoľvek počasia
+    \item \textbf{LiDAR:} Poskytuje presné 3D mapovanie prostredia, citlivý na poveternostné podmienky
+    \item \textbf{Kamery:} Rozpoznávajú farby, texty a detaily, vyžadujú dobré osvetlenie
+    \item \textbf{ADAS/AD jednotka:} Spája dáta zo všetkých senzorov a rozhoduje o ďalšej trase
+\end{itemize}
 \subsection{Edge a cloud computing}
 ,,Edge computing umožňuje okamžitú analýzu priamo v zariadení, zatiaľ čo cloud computing poskytuje výkon pre trénovanie veľkých AI modelov'' \cite{Rong2025}.
 
@@ -178,9 +201,9 @@ Cestná doprava je kde sa AI aplikuje najviditeľnejšie.
 
 \subsection{Autonómne vozidlá}
 Vývoj autonómnych vozidiel je jednou z najprelomovejších aplikácií AI.
-,,Autonómne vozidlá sú založené na rôznych senzoroch, ako sú GPS, kamery a radary, v kombinácii s aktuátormi, riadiacimi jednotkami a softvérom'' \cite{EPRS_2019}.
+,,Autonómne vozidlá sú založené na rôznych senzorch, ako sú GPS, kamery a radary, v kombinácii s aktuátormi, riadiacimi jednotkami a softvérom'' \cite{EPRS_2019}.
+Typickú konfiguráciu takýchto senzorov ilustruje obrázok \ref{fig:sensors} v kapitole 2.
 Niektoré technológie preberajú iba určité funkcie vodiča (ako parkovanie), zatiaľ čo iné sú určené na úplné nahradenie vodiča \cite{EPRS_2019}.
-,,Testovanie plne autonómnych vozidiel prebieha v obmedzenom počte jazdných situácií a oblastí'' \cite{EPRS_2019}.
 
 \subsection{Riadenie premávky}
 ,,AI technológie sa tiež uplatňujú pri riadení cestnej premávky, pomáhajúc analyzovať vzory premávky, jej objem a ďalšie faktory'' \cite{EPRS_2019}.

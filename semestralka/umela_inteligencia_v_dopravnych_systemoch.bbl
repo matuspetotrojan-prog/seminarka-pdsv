@@ -336,6 +336,47 @@
       \field{type}{Final Report}
       \field{year}{2025}
     \endentry
+    \entry{Kang2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bd2fc3db6d4a6d02c4cf9e808f0af55a}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={J.-S.},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=9f73b275f742c3b02e6728c933186377}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=54929c86c4befaa1bd0f5bcdbc901f95}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={E.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{fullhash}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{fullhashraw}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{bibnamehash}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{authorbibnamehash}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{authornamehash}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{authorfullhash}{bf28a4e65fcb709a17a7ad5c06148980}
+      \strng{authorfullhashraw}{bf28a4e65fcb709a17a7ad5c06148980}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{number}{26–27}
+      \field{title}{Multimedia knowledge-based bridge health monitoring using digital twin}
+      \field{volume}{80}
+      \field{year}{2021}
+      \field{pages}{34609\bibrangedash 34624}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s11042-021-10649-x
+      \endverb
+    \endentry
     \entry{Liu2024STLLM}{article}{}{}
       \name{author}{7}{}{%
         {{hash=098fc2437254275ce09502ec6d6cf78e}{%

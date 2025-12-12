@@ -1,49 +1,49 @@
 \babel@toc {slovak}{}\relax 
-\contentsline {chapter}{\numberline {1}Úvod}{4}{}%
-\contentsline {section}{\numberline {1.1}Historický kontext a vývoj}{4}{}%
-\contentsline {section}{\numberline {1.2}Kľúčové oblasti aplikácie AI v doprave}{4}{}%
-\contentsline {subsection}{\numberline {1.2.1}Manažment dopravných aktív}{4}{}%
-\contentsline {subsection}{\numberline {1.2.2}Dopravná bezpečnosť}{5}{}%
-\contentsline {subsection}{\numberline {1.2.3}Dopravné operácie}{5}{}%
-\contentsline {subsection}{\numberline {1.2.4}Autonómne vozidlá}{5}{}%
-\contentsline {subsection}{\numberline {1.2.5}Digitálne dvojčatá}{5}{}%
-\contentsline {subsection}{\numberline {1.2.6}Generatívna AI}{5}{}%
-\contentsline {chapter}{\numberline {2}Technologické aspekty AI v doprave}{6}{}%
-\contentsline {section}{\numberline {2.1}Kľúčové technologické modely}{6}{}%
-\contentsline {subsection}{\numberline {2.1.1}Symbolická vs. dátovo-riadená AI}{6}{}%
-\contentsline {subsection}{\numberline {2.1.2}Techniky strojového a hlbokého učenia}{6}{}%
-\contentsline {section}{\numberline {2.2}Generatívna AI a veľké jazykové modely}{6}{}%
-\contentsline {subsection}{\numberline {2.2.1}Architektúra Transformers a LLM}{6}{}%
-\contentsline {subsection}{\numberline {2.2.2}GAN a difúzne modely}{7}{}%
-\contentsline {section}{\numberline {2.3}Integrácia AI do subsystémov ITS}{7}{}%
-\contentsline {subsection}{\numberline {2.3.1}Dialóg a uvažovanie}{7}{}%
-\contentsline {subsection}{\numberline {2.3.2}Predikcia a rozhodovanie}{7}{}%
-\contentsline {subsection}{\numberline {2.3.3}Multimodálna generácia}{7}{}%
-\contentsline {section}{\numberline {2.4}Technologická infraštruktúra}{7}{}%
-\contentsline {subsection}{\numberline {2.4.1}Senzory a IoT}{7}{}%
-\contentsline {subsection}{\numberline {2.4.2}Edge a cloud computing}{7}{}%
-\contentsline {subsection}{\numberline {2.4.3}Komunikačné technológie}{7}{}%
-\contentsline {chapter}{\numberline {3}Aplikácie AI v dopravných systémoch}{8}{}%
-\contentsline {section}{\numberline {3.1}Cestná doprava}{8}{}%
-\contentsline {subsection}{\numberline {3.1.1}Autonómne vozidlá}{8}{}%
-\contentsline {subsection}{\numberline {3.1.2}Riadenie premávky}{8}{}%
-\contentsline {section}{\numberline {3.2}Železničná doprava}{8}{}%
-\contentsline {subsection}{\numberline {3.2.1}Automatizácia prevádzky vlakov (ATO)}{9}{}%
-\contentsline {subsection}{\numberline {3.2.2}Európsky systém riadenia železničnej premávky (ERTMS)}{9}{}%
-\contentsline {subsection}{\numberline {3.2.3}Prediktívna údržba}{9}{}%
-\contentsline {section}{\numberline {3.3}Letecká doprava}{9}{}%
-\contentsline {subsection}{\numberline {3.3.1}Riadenie letovej prevádzky (ATM)}{9}{}%
-\contentsline {subsection}{\numberline {3.3.2}Letiskové operácie a bezpečnosť}{9}{}%
-\contentsline {subsection}{\numberline {3.3.3}Výskumné projekty EÚ}{9}{}%
-\contentsline {section}{\numberline {3.4}Námorná doprava, plavba a prístavy}{10}{}%
-\contentsline {subsection}{\numberline {3.4.1}Autonómna plavba}{10}{}%
-\contentsline {subsection}{\numberline {3.4.2}Inteligentné prístavy}{10}{}%
-\contentsline {subsection}{\numberline {3.4.3}Optimalizácia prístavných operácií}{10}{}%
-\contentsline {subsection}{\numberline {3.4.4}Výzvy v námornej doprave}{10}{}%
-\contentsline {chapter}{\numberline {4}Výzvy a etické aspekty implementácie AI v doprave}{11}{}%
-\contentsline {section}{\numberline {4.1}Technické a bezpečnostné výzvy}{11}{}%
-\contentsline {section}{\numberline {4.2}Legislatívne a regulačné výzvy}{11}{}%
-\contentsline {section}{\numberline {4.3}Etické problémy}{11}{}%
-\contentsline {section}{\numberline {4.4}Sociálno-ekonomické dopady}{12}{}%
-\contentsline {section}{\numberline {4.5}Budúce smerovanie a riešenia}{12}{}%
-\contentsline {chapter}{Záver}{13}{}%
+\contentsline {chapter}{\numberline {1}Úvod}{5}{}%
+\contentsline {section}{\numberline {1.1}Historický kontext a vývoj}{5}{}%
+\contentsline {section}{\numberline {1.2}Kľúčové oblasti aplikácie AI v doprave}{5}{}%
+\contentsline {subsection}{\numberline {1.2.1}Manažment dopravných aktív}{5}{}%
+\contentsline {subsection}{\numberline {1.2.2}Dopravná bezpečnosť}{6}{}%
+\contentsline {subsection}{\numberline {1.2.3}Dopravné operácie}{6}{}%
+\contentsline {subsection}{\numberline {1.2.4}Autonómne vozidlá}{6}{}%
+\contentsline {subsection}{\numberline {1.2.5}Digitálne dvojčatá}{6}{}%
+\contentsline {subsection}{\numberline {1.2.6}Generatívna AI}{7}{}%
+\contentsline {chapter}{\numberline {2}Technologické aspekty AI v doprave}{8}{}%
+\contentsline {section}{\numberline {2.1}Kľúčové technologické modely}{8}{}%
+\contentsline {subsection}{\numberline {2.1.1}Symbolická vs. dátovo-riadená AI}{8}{}%
+\contentsline {subsection}{\numberline {2.1.2}Techniky strojového a hlbokého učenia}{8}{}%
+\contentsline {section}{\numberline {2.2}Generatívna AI a veľké jazykové modely}{8}{}%
+\contentsline {subsection}{\numberline {2.2.1}Architektúra Transformers a LLM}{8}{}%
+\contentsline {subsection}{\numberline {2.2.2}GAN a difúzne modely}{9}{}%
+\contentsline {section}{\numberline {2.3}Integrácia AI do subsystémov ITS}{9}{}%
+\contentsline {subsection}{\numberline {2.3.1}Dialóg a uvažovanie}{9}{}%
+\contentsline {subsection}{\numberline {2.3.2}Predikcia a rozhodovanie}{9}{}%
+\contentsline {subsection}{\numberline {2.3.3}Multimodálna generácia}{9}{}%
+\contentsline {section}{\numberline {2.4}Technologická infraštruktúra}{9}{}%
+\contentsline {subsection}{\numberline {2.4.1}Senzory}{9}{}%
+\contentsline {subsection}{\numberline {2.4.2}Edge a cloud computing}{10}{}%
+\contentsline {subsection}{\numberline {2.4.3}Komunikačné technológie}{10}{}%
+\contentsline {chapter}{\numberline {3}Aplikácie AI v dopravných systémoch}{11}{}%
+\contentsline {section}{\numberline {3.1}Cestná doprava}{11}{}%
+\contentsline {subsection}{\numberline {3.1.1}Autonómne vozidlá}{11}{}%
+\contentsline {subsection}{\numberline {3.1.2}Riadenie premávky}{11}{}%
+\contentsline {section}{\numberline {3.2}Železničná doprava}{11}{}%
+\contentsline {subsection}{\numberline {3.2.1}Automatizácia prevádzky vlakov (ATO)}{12}{}%
+\contentsline {subsection}{\numberline {3.2.2}Európsky systém riadenia železničnej premávky (ERTMS)}{12}{}%
+\contentsline {subsection}{\numberline {3.2.3}Prediktívna údržba}{12}{}%
+\contentsline {section}{\numberline {3.3}Letecká doprava}{12}{}%
+\contentsline {subsection}{\numberline {3.3.1}Riadenie letovej prevádzky (ATM)}{12}{}%
+\contentsline {subsection}{\numberline {3.3.2}Letiskové operácie a bezpečnosť}{12}{}%
+\contentsline {subsection}{\numberline {3.3.3}Výskumné projekty EÚ}{12}{}%
+\contentsline {section}{\numberline {3.4}Námorná doprava, plavba a prístavy}{13}{}%
+\contentsline {subsection}{\numberline {3.4.1}Autonómna plavba}{13}{}%
+\contentsline {subsection}{\numberline {3.4.2}Inteligentné prístavy}{13}{}%
+\contentsline {subsection}{\numberline {3.4.3}Optimalizácia prístavných operácií}{13}{}%
+\contentsline {subsection}{\numberline {3.4.4}Výzvy v námornej doprave}{13}{}%
+\contentsline {chapter}{\numberline {4}Výzvy a etické aspekty implementácie AI v doprave}{14}{}%
+\contentsline {section}{\numberline {4.1}Technické a bezpečnostné výzvy}{14}{}%
+\contentsline {section}{\numberline {4.2}Legislatívne a regulačné výzvy}{14}{}%
+\contentsline {section}{\numberline {4.3}Etické problémy}{14}{}%
+\contentsline {section}{\numberline {4.4}Sociálno-ekonomické dopady}{15}{}%
+\contentsline {section}{\numberline {4.5}Budúce smerovanie a riešenia}{15}{}%
+\contentsline {chapter}{Záver}{16}{}%

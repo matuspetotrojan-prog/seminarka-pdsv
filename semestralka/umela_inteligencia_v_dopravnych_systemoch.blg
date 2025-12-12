@@ -1,14 +1,14 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'umela_inteligencia_v_dopravnych_systemoch.blg'
-[453] biber-MSWIN64:342> INFO - === 
-[621] Biber.pm:421> INFO - Reading 'umela_inteligencia_v_dopravnych_systemoch.bcf'
-[854] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
-[898] Biber.pm:4487> INFO - Processing section 0
-[929] Biber.pm:4678> INFO - Looking for bibtex file 'referencie.bib' for section 0
-[1048] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1101] bibtex.pm:1519> INFO - Found BibTeX data source 'referencie.bib'
-[1456] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1456] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1457] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'sk-SK'
-[1486] bbl.pm:676> INFO - Writing 'umela_inteligencia_v_dopravnych_systemoch.bbl' with encoding 'UTF-8'
-[1506] bbl.pm:779> INFO - Output to umela_inteligencia_v_dopravnych_systemoch.bbl
+[0] Config.pm:331> INFO - Logfile is 'umela_inteligencia_v_dopravnych_systemoch.blg'
+[208] biber-MSWIN64:342> INFO - === 
+[287] Biber.pm:421> INFO - Reading 'umela_inteligencia_v_dopravnych_systemoch.bcf'
+[528] Biber.pm:1002> INFO - Found 17 citekeys in bib section 0
+[555] Biber.pm:4487> INFO - Processing section 0
+[574] Biber.pm:4678> INFO - Looking for bibtex file 'referencie.bib' for section 0
+[664] bibtex.pm:1713> INFO - LaTeX decoding ...
+[703] bibtex.pm:1519> INFO - Found BibTeX data source 'referencie.bib'
+[1007] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1007] UCollate.pm:68> INFO - Overriding locale 'sk-SK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1008] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'sk-SK'
+[1039] bbl.pm:676> INFO - Writing 'umela_inteligencia_v_dopravnych_systemoch.bbl' with encoding 'UTF-8'
+[1066] bbl.pm:779> INFO - Output to umela_inteligencia_v_dopravnych_systemoch.bbl

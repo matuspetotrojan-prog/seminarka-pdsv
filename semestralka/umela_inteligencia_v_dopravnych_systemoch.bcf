@@ -2373,7 +2373,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">referencie.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">tech_report_2025</bcf:citekey>
     <bcf:citekey order="2" intorder="1">tech_report_2025</bcf:citekey>
     <bcf:citekey order="3" intorder="1">tech_report_2025</bcf:citekey>
     <bcf:citekey order="4" intorder="1">tech_report_2025</bcf:citekey>
@@ -2385,32 +2384,32 @@
     <bcf:citekey order="10" intorder="1">tech_report_2025</bcf:citekey>
     <bcf:citekey order="11" intorder="1">tech_report_2025</bcf:citekey>
     <bcf:citekey order="12" intorder="1">tech_report_2025</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">tech_report_2025</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Rong2025</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Vaswani2017</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Brown2020</bcf:citekey>
-    <bcf:citekey order="18" intorder="2">Rong2025</bcf:citekey>
-    <bcf:citekey order="18" intorder="3">Zheng2023</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Goodfellow2014</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">Ho2020</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Kang2021</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Kang2021</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">tech_report_2025</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Rong2025</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Vaswani2017</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Brown2020</bcf:citekey>
     <bcf:citekey order="20" intorder="2">Rong2025</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Meneguette2018</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">Alams2016</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Rong2025</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Rong2025</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Chen2024</bcf:citekey>
-    <bcf:citekey order="24" intorder="2">Zhou2024GPT4V</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">Pompigna2022</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Liu2024STLLM</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Xu2024GenerativeAI</bcf:citekey>
-    <bcf:citekey order="27" intorder="2">Wang2024MDT</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Wang2024MDT</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Rong2025</bcf:citekey>
+    <bcf:citekey order="20" intorder="3">Zheng2023</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Goodfellow2014</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Ho2020</bcf:citekey>
+    <bcf:citekey order="22" intorder="2">Rong2025</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Meneguette2018</bcf:citekey>
+    <bcf:citekey order="23" intorder="2">Alams2016</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Rong2025</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Rong2025</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">Chen2024</bcf:citekey>
+    <bcf:citekey order="26" intorder="2">Zhou2024GPT4V</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Pompigna2022</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Liu2024STLLM</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Xu2024GenerativeAI</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">Wang2024MDT</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Wang2024MDT</bcf:citekey>
     <bcf:citekey order="31" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Rong2025</bcf:citekey>
     <bcf:citekey order="33" intorder="1">EPRS_2019</bcf:citekey>
     <bcf:citekey order="34" intorder="1">EPRS_2019</bcf:citekey>
     <bcf:citekey order="35" intorder="1">EPRS_2019</bcf:citekey>
@@ -2444,18 +2443,19 @@
     <bcf:citekey order="63" intorder="1">EPRS_2019</bcf:citekey>
     <bcf:citekey order="64" intorder="1">EPRS_2019</bcf:citekey>
     <bcf:citekey order="65" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">Rong2025</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">Rong2025</bcf:citekey>
     <bcf:citekey order="68" intorder="1">EPRS_2019</bcf:citekey>
     <bcf:citekey order="69" intorder="1">EPRS_2019</bcf:citekey>
     <bcf:citekey order="70" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">Rong2025</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">Rong2025</bcf:citekey>
     <bcf:citekey order="73" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">Rong2025</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">Rong2025</bcf:citekey>
     <bcf:citekey order="76" intorder="1">EPRS_2019</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">Rong2025</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">EPRS_2019</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">Rong2025</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

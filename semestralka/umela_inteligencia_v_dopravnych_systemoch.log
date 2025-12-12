@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  12 DEC 2025 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.9)  12 DEC 2025 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,7 +365,14 @@ Package biblatex Info: ... and expl3
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-))
+)) (C:\Users\matus\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count424
+\float@exts=\toks22
+\float@box=\box53
+\@float@everytoks=\toks23
+\@floatcapt=\box54
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -376,20 +383,20 @@ Package babel Info: 'slovak' activates 'slovak' shorthands.
 )
 \openout1 = `umela_inteligencia_v_dopravnych_systemoch.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -427,17 +434,17 @@ LaTeX Font Info:    ... okay on input line 16.
 
 (C:\Users\matus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count424
+\scratchcounter=\count425
 \scratchdimen=\dimen160
-\scratchbox=\box53
-\nofMPsegments=\count425
-\nofMParguments=\count426
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count427
+\scratchbox=\box55
+\nofMPsegments=\count426
+\nofMParguments=\count427
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count428
 \MPscratchDim=\dimen161
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count429
+\makeMPintoPDFobject=\count430
+\everyMPtoPDFconversion=\toks25
 ) (C:\Users\matus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -457,8 +464,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'umela_inteligencia_v_dopravnych_systemoch.bbl' found.
  (umela_inteligencia_v_dopravnych_systemoch.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
  [1
 
 {C:/Users/matus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (umela_inteligencia_v_dopravnych_systemoch.toc
@@ -474,27 +481,45 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `umela_inteligencia_v_dopravnych_systemoch.toc'.
 
- [2] [3]
+ [2] (umela_inteligencia_v_dopravnych_systemoch.lof)
+\tf@lof=\write5
+\openout5 = `umela_inteligencia_v_dopravnych_systemoch.lof'.
+
+ [3
+
+] [4]
 Kapitola 1.
-[4
+[5
 
-] [5]
+]
+<digitalnedvojca.png, id=29, 242.23833pt x 231.19708pt>
+File: digitalnedvojca.png Graphic file (type png)
+<use digitalnedvojca.png>
+Package pdftex.def Info: digitalnedvojca.png  used on input line 114.
+(pdftex.def)             Requested size: 432.48051pt x 412.79948pt.
+ [6] [7 <./digitalnedvojca.png>]
 Kapitola 2.
-[6
-
-] [7]
-Kapitola 3.
 [8
 
-] [9] [10]
-Kapitola 4.
+]
+<autonomouscarsensors.png, id=41, 1027.84pt x 490.83376pt>
+File: autonomouscarsensors.png Graphic file (type png)
+<use autonomouscarsensors.png>
+Package pdftex.def Info: autonomouscarsensors.png  used on input line 173.
+(pdftex.def)             Requested size: 364.19667pt x 173.9214pt.
+ [9] [10 <./autonomouscarsensors.png (PNG copy)>]
+Kapitola 3.
 [11
 
-] [12] [13
+] [12] [13]
+Kapitola 4.
+[14
 
-] [14
+] [15] [16
 
-] [15] (umela_inteligencia_v_dopravnych_systemoch.aux)
+] [17
+
+] [18] (umela_inteligencia_v_dopravnych_systemoch.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
@@ -504,17 +529,17 @@ Package logreq Info: Writing requests to 'umela_inteligencia_v_dopravnych_system
 
  ) 
 Here is how much of TeX's memory you used:
- 12209 strings out of 467870
- 230920 string characters out of 5418355
- 1090417 words of memory out of 5000000
- 40982 multiletter control sequences out of 15000+600000
+ 12310 strings out of 467870
+ 233023 string characters out of 5418355
+ 1091962 words of memory out of 5000000
+ 41076 multiletter control sequences out of 15000+600000
  639412 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,6n,66p,817b,1788s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on umela_inteligencia_v_dopravnych_systemoch.pdf (16 pages, 198314 bytes).
+ 63i,7n,66p,817b,3018s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\matus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on umela_inteligencia_v_dopravnych_systemoch.pdf (19 pages, 593093 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
+ 533 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
