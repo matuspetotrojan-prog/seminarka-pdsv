@@ -1,0 +1,795 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Alams2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=cb81801f5ee11af602a180cd5a1c1999}{%
+           family={Alams},
+           familyi={A\bibinitperiod},
+           given={Murad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=59d2de644671d9596ccf71fd6577b655}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Joaquim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=888e51b76fa61fa82e738f5b68ceca4d}{%
+           family={Fonseca},
+           familyi={F\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{fullhash}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{fullhashraw}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{bibnamehash}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{authorbibnamehash}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{authornamehash}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{authorfullhash}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \strng{authorfullhashraw}{7409f5b514dcf7a12d9f30d07e5250d1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligent Transportation Systems: Dependable Vehicular Communications for Improved Road Safety}
+      \field{title}{Introduction to Intelligent Transportation Systems}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+    \endentry
+    \entry{Brown2020}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=7c16e8d36475e58d4f2d161e6ecb7704}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Tom\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d4543c3bcd6aaf414da4296b349603e5}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9ac58bd43db2434e8e1ffd6182c3fcda}{%
+           family={Ryder},
+           familyi={R\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9ed243177743da3e650f1cff6376bb3c}{%
+           family={Subbiah},
+           familyi={S\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e85370e215d552f72c95a2b63a37802}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4164e43d8cf919f5e3f8d80f5ea23f36}{%
+           family={Dhariwal},
+           familyi={D\bibinitperiod},
+           given={Prafulla},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4ca421ceeb5b516dd8fc64bea5a23f2a}{%
+           family={Neelakantan},
+           familyi={N\bibinitperiod},
+           given={Arvind},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ab5d7d7b9cfeaad635c4a60e8950d7dd}{%
+           family={Shyam},
+           familyi={S\bibinitperiod},
+           given={Pranav},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3c1d9a663596faaf544c1a65aac581be}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={Girish},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1e84eff933be9f4887bf369cf181bf12}{%
+           family={Askell},
+           familyi={A\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0884233a667161739ddd01569813457f}
+      \strng{fullhash}{7461595e3e0fb4884afbe72c86096e60}
+      \strng{fullhashraw}{7461595e3e0fb4884afbe72c86096e60}
+      \strng{bibnamehash}{0884233a667161739ddd01569813457f}
+      \strng{authorbibnamehash}{0884233a667161739ddd01569813457f}
+      \strng{authornamehash}{0884233a667161739ddd01569813457f}
+      \strng{authorfullhash}{7461595e3e0fb4884afbe72c86096e60}
+      \strng{authorfullhashraw}{7461595e3e0fb4884afbe72c86096e60}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Language Models are Few-Shot Learners}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{1877\bibrangedash 1901}
+      \range{pages}{25}
+    \endentry
+    \entry{Goodfellow2014}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{fullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{fullhashraw}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{bibnamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authorbibnamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authornamehash}{8b5c7065f4df4f81627df9460343f166}
+      \strng{authorfullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \strng{authorfullhashraw}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Generative Adversarial Nets}
+      \field{volume}{27}
+      \field{year}{2014}
+      \field{pages}{2672\bibrangedash 2680}
+      \range{pages}{9}
+    \endentry
+    \entry{Ho2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2ac2ca10b22e4d13af1767e87495412f}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=31ac0835ffc3ba6d612252522a6a2011}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e28d4ee199593959d8c29980a64f1974}{%
+           family={Abbeel},
+           familyi={A\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{fullhash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{fullhashraw}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{bibnamehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authorbibnamehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authornamehash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authorfullhash}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \strng{authorfullhashraw}{1ef17e0fed8d834b029ebb1c6adf76b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Denoising Diffusion Probabilistic Models}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{6840\bibrangedash 6851}
+      \range{pages}{12}
+    \endentry
+    \entry{Chen2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=af06704764d8034ca33edc1493e66b7b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b2eb60c0392f18e7287a7456d132451c}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a4880879828fc0f937868ade7da96df6}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{23812de302913db6624783723c6601a5}
+      \strng{fullhash}{23812de302913db6624783723c6601a5}
+      \strng{fullhashraw}{23812de302913db6624783723c6601a5}
+      \strng{bibnamehash}{23812de302913db6624783723c6601a5}
+      \strng{authorbibnamehash}{23812de302913db6624783723c6601a5}
+      \strng{authornamehash}{23812de302913db6624783723c6601a5}
+      \strng{authorfullhash}{23812de302913db6624783723c6601a5}
+      \strng{authorfullhashraw}{23812de302913db6624783723c6601a5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{17}
+      \field{title}{An autonomous intelligent liability determination method for minor accidents based on collision detection and large language models}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{7716}
+      \range{pages}{1}
+    \endentry
+    \entry{tech_report_2025}{report}{}{}
+      \name{author}{9}{}{%
+        {{hash=c2ccd5210368dd4e75f59d030b6cb410}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Sikai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=73d49e67d10fc0d94c268a18f871aebc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Pei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8548412359655f33f6f452207559a356}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Zihao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ba9aabf69d4f01874dc4e46c0fc9bcb9}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Junyi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a00c5050f276cbfa0ac70050e61ef474}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4528ef7609085cd66ec9de8bb9ae81e8}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2af761d9bef859ea29248418adce0dd7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=91a07759833647fc6114fcbb71df5641}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=76655833d0fc07f221f27d12a7d5dd2d}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {University of Wisconsin-Madison}%
+        {University of Wisconsin-Milwaukee}%
+      }
+      \strng{namehash}{28f3cce3ee3647b7b21e98ee51fdd83c}
+      \strng{fullhash}{c01bda0fedbe781e087803a9a93fa487}
+      \strng{fullhashraw}{c01bda0fedbe781e087803a9a93fa487}
+      \strng{bibnamehash}{28f3cce3ee3647b7b21e98ee51fdd83c}
+      \strng{authorbibnamehash}{28f3cce3ee3647b7b21e98ee51fdd83c}
+      \strng{authornamehash}{28f3cce3ee3647b7b21e98ee51fdd83c}
+      \strng{authorfullhash}{c01bda0fedbe781e087803a9a93fa487}
+      \strng{authorfullhashraw}{c01bda0fedbe781e087803a9a93fa487}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{WisDOT Research \& Library Unit}
+      \field{number}{0092-24-14}
+      \field{title}{Artificial Intelligence in Transportation}
+      \field{type}{Final Report}
+      \field{year}{2025}
+    \endentry
+    \entry{Liu2024STLLM}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=098fc2437254275ce09502ec6d6cf78e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chenxi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5a7fe627a1432331b3a2a443fd53e216}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Shuo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e19d9a2b3ddc78f8aee50df29f2d907f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=db6db4a96e8f02753487179ada4a4a10}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhengyang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=29dd0ba6fae20a76e274b3d1370299e4}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=80c88b1c7cc92f9bcb33605a25e00dab}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5db4068796cde560b4fd3829096ef6c5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bca7517c33f68b746bd1e84a9b2442c}
+      \strng{fullhash}{827dabf4e740e76862f5f6e288ca8081}
+      \strng{fullhashraw}{827dabf4e740e76862f5f6e288ca8081}
+      \strng{bibnamehash}{8bca7517c33f68b746bd1e84a9b2442c}
+      \strng{authorbibnamehash}{8bca7517c33f68b746bd1e84a9b2442c}
+      \strng{authornamehash}{8bca7517c33f68b746bd1e84a9b2442c}
+      \strng{authorfullhash}{827dabf4e740e76862f5f6e288ca8081}
+      \strng{authorfullhashraw}{827dabf4e740e76862f5f6e288ca8081}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2401.10134}
+      \field{title}{Spatial-temporal large language model for traffic prediction}
+      \field{year}{2024}
+    \endentry
+    \entry{Meneguette2018}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=928edacf1be9395722bad676f2c74b0a}{%
+           family={Meneguette},
+           familyi={M\bibinitperiod},
+           given={Rodolfo\bibnamedelima I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=9c042fc67f95f8faec71416f686e1c3c}{%
+           family={De\bibnamedelima Grande},
+           familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Robson\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=97d9b69efdfc0b95125865b671704378}{%
+           family={Loureiro},
+           familyi={L\bibinitperiod},
+           given={Antonio\bibnamedelimb A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{fullhash}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{fullhashraw}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{bibnamehash}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{authorbibnamehash}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{authornamehash}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{authorfullhash}{d80ae76ad2513c79363f865e4df853b3}
+      \strng{authorfullhashraw}{d80ae76ad2513c79363f865e4df853b3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligent Transport System in Smart Cities: Aspects and Challenges of Vehicular Networks and Cloud}
+      \field{title}{Intelligent Transportation Systems}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+    \endentry
+    \entry{EPRS_2019}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=cd9bcd2d5b437709b07f57c1eada8c4e}{%
+           family={Niestadt},
+           familyi={N\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50ab33be55d6f110ee917adecf3124a1}{%
+           family={Debyser},
+           familyi={D\bibinitperiod},
+           given={Ariane},
+           giveni={A\bibinitperiod}}}%
+        {{hash=50dc512337f2c66f0cfb7a1ae9e84e8b}{%
+           family={Scordamaglia},
+           familyi={S\bibinitperiod},
+           given={Damiano},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4f650ec09af8fb3aef1d59bc84ebe6d1}{%
+           family={Pape},
+           familyi={P\bibinitperiod},
+           given={Marketa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {European Parliamentary Research Service (EPRS)}%
+      }
+      \strng{namehash}{a8e2c5986e199534178d61e781d652ef}
+      \strng{fullhash}{299122ca447c0f5efc9179326974bb3d}
+      \strng{fullhashraw}{299122ca447c0f5efc9179326974bb3d}
+      \strng{bibnamehash}{a8e2c5986e199534178d61e781d652ef}
+      \strng{authorbibnamehash}{a8e2c5986e199534178d61e781d652ef}
+      \strng{authornamehash}{a8e2c5986e199534178d61e781d652ef}
+      \strng{authorfullhash}{299122ca447c0f5efc9179326974bb3d}
+      \strng{authorfullhashraw}{299122ca447c0f5efc9179326974bb3d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{PE 635.609}
+      \field{title}{Artificial intelligence in transport: Current and future developments, opportunities and challenges}
+      \field{type}{Briefing}
+      \field{year}{2019}
+    \endentry
+    \entry{Pompigna2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=77c93621479e74d0a9bbcb5dbfe9e7b6}{%
+           family={Pompigna},
+           familyi={P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=04b66a060b3100a97a6ba388005fea13}{%
+           family={Mauro},
+           familyi={M\bibinitperiod},
+           given={Raffaele},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{16bd784ad516693683f7948424c60c03}
+      \strng{fullhash}{16bd784ad516693683f7948424c60c03}
+      \strng{fullhashraw}{16bd784ad516693683f7948424c60c03}
+      \strng{bibnamehash}{16bd784ad516693683f7948424c60c03}
+      \strng{authorbibnamehash}{16bd784ad516693683f7948424c60c03}
+      \strng{authornamehash}{16bd784ad516693683f7948424c60c03}
+      \strng{authorfullhash}{16bd784ad516693683f7948424c60c03}
+      \strng{authorfullhashraw}{16bd784ad516693683f7948424c60c03}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Engineering Science and Technology, an International Journal}
+      \field{title}{Smartroads: A state of the art of highways innovations in the Smart Age}
+      \field{volume}{25}
+      \field{year}{2022}
+      \field{pages}{100986}
+      \range{pages}{1}
+    \endentry
+    \entry{Rong2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=34e95a4542c63671b649285af7ea5bff}{%
+           family={Rong},
+           familyi={R\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9d0d47becdddf97cdfd7e3f3bf1c708a}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Shoufeng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5014a970c8983df96ea3953e72daf265}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Nianlu},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a04be479c9f80fc21e84120f126b3d09}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Qinping},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=996e95a2841d506c2d6da1966671efef}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3928333340e54ca7d3e56b1415eca5dd}
+      \strng{fullhash}{4aac8fb9be892c8da28f12049a8219bd}
+      \strng{fullhashraw}{4aac8fb9be892c8da28f12049a8219bd}
+      \strng{bibnamehash}{3928333340e54ca7d3e56b1415eca5dd}
+      \strng{authorbibnamehash}{3928333340e54ca7d3e56b1415eca5dd}
+      \strng{authornamehash}{3928333340e54ca7d3e56b1415eca5dd}
+      \strng{authorfullhash}{4aac8fb9be892c8da28f12049a8219bd}
+      \strng{authorfullhashraw}{4aac8fb9be892c8da28f12049a8219bd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers of Engineering Management}
+      \field{number}{4}
+      \field{title}{Generative artificial intelligence in intelligent transportation systems: A systematic review of applications}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{1020\bibrangedash 1036}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s42524-025-4241-9
+      \endverb
+    \endentry
+    \entry{Vaswani2017}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{fullhashraw}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorfullhashraw}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Attention is All You Need}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{5998\bibrangedash 6008}
+      \range{pages}{11}
+    \endentry
+    \entry{Wang2024MDT}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{5}{}{%
+        {{hash=03d3e23852937fa39b0e34246c4ecd1d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=685f5ae585cda7eca7cf8550446dd022}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jianhua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6b929500ea46ab4807c6038edf555526}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Yinglong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=61b3698af0863546ed8c01202282cda5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=aa4bc40a5dea0992369dc39301cc4487}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Liuqing},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeaae95a3851acdb0d7c761eee05b973}
+      \strng{fullhash}{ffcde4fd7788684dfbefc4c42a9b0a5f}
+      \strng{fullhashraw}{ffcde4fd7788684dfbefc4c42a9b0a5f}
+      \strng{bibnamehash}{aeaae95a3851acdb0d7c761eee05b973}
+      \strng{authorbibnamehash}{aeaae95a3851acdb0d7c761eee05b973}
+      \strng{authornamehash}{aeaae95a3851acdb0d7c761eee05b973}
+      \strng{authorfullhash}{ffcde4fd7788684dfbefc4c42a9b0a5f}
+      \strng{authorfullhashraw}{ffcde4fd7788684dfbefc4c42a9b0a5f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research}
+      \field{title}{Parallel driving with big models and foundation intelligence in cyber-physical-social spaces}
+      \field{volume}{7}
+      \field{year}{2024}
+      \field{pages}{0349}
+      \range{pages}{1}
+    \endentry
+    \entry{Xu2024GenerativeAI}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=ebe87161fff38c40d0bf84a35cba7349}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9aa894284be00b35b2685bfa47deb6a1}{%
+           family={Omitaomu},
+           familyi={O\bibinitperiod},
+           given={Femi},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0668dafdc16579974a23913f96888f4a}{%
+           family={Sabri},
+           familyi={S\bibinitperiod},
+           given={Sabri},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9e8a9042a189018a6a5cc6f882f465a5}{%
+           family={Zlatanova},
+           familyi={Z\bibinitperiod},
+           given={Sisi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0d36a6690c1ecc71addd182336c05c16}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d3a2e45acb815e215a5ad1e99547d520}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{b93e13d63bfd0320796a6028abe91739}
+      \strng{fullhash}{ec5c89b9a7ccae26bdf2d7e9f4cbdc89}
+      \strng{fullhashraw}{ec5c89b9a7ccae26bdf2d7e9f4cbdc89}
+      \strng{bibnamehash}{b93e13d63bfd0320796a6028abe91739}
+      \strng{authorbibnamehash}{b93e13d63bfd0320796a6028abe91739}
+      \strng{authornamehash}{b93e13d63bfd0320796a6028abe91739}
+      \strng{authorfullhash}{ec5c89b9a7ccae26bdf2d7e9f4cbdc89}
+      \strng{authorfullhashraw}{ec5c89b9a7ccae26bdf2d7e9f4cbdc89}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Urban Informatics}
+      \field{number}{1}
+      \field{title}{Leveraging generative AI for urban digital twins: a scoping review on the autonomous generation of urban data, scenarios, designs, and 3D city models for smart city advancement}
+      \field{volume}{3}
+      \field{year}{2024}
+      \field{pages}{29}
+      \range{pages}{1}
+    \endentry
+    \entry{Zheng2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=eaffe70927e10ac0154aab37ed497be0}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Ou},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1f13dd2f79f10cde9b4d4d55fc2aa404}{%
+           family={Abdel-Aty},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4695c12fc5e5638d83abfb67ab9d459c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dedc2bdb1b66769087e8c9b9f5cd4f91}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zijin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8a339bf5e610f6e08c76298cd054f325}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Song},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{180a6dab018bea26afbb3b01db9ce8d2}
+      \strng{fullhash}{1c7d6c1ff3d4a6bdd818c51119fa0803}
+      \strng{fullhashraw}{1c7d6c1ff3d4a6bdd818c51119fa0803}
+      \strng{bibnamehash}{180a6dab018bea26afbb3b01db9ce8d2}
+      \strng{authorbibnamehash}{180a6dab018bea26afbb3b01db9ce8d2}
+      \strng{authornamehash}{180a6dab018bea26afbb3b01db9ce8d2}
+      \strng{authorfullhash}{1c7d6c1ff3d4a6bdd818c51119fa0803}
+      \strng{authorfullhashraw}{1c7d6c1ff3d4a6bdd818c51119fa0803}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2303.05382}
+      \field{title}{ChatGPT is on the horizon: Could a large language model be all we need for intelligent transportation?}
+      \field{year}{2023}
+    \endentry
+    \entry{Zhou2024GPT4V}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=35b53a5f450cc6a8ce8bce633606e1de}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=98acbcc51d89b5dc50a0b38b371e8266}{%
+           family={Knoll},
+           familyi={K\bibinitperiod},
+           given={Alois\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{20b88b0b1828cc290a89141fa766247c}
+      \strng{fullhash}{20b88b0b1828cc290a89141fa766247c}
+      \strng{fullhashraw}{20b88b0b1828cc290a89141fa766247c}
+      \strng{bibnamehash}{20b88b0b1828cc290a89141fa766247c}
+      \strng{authorbibnamehash}{20b88b0b1828cc290a89141fa766247c}
+      \strng{authornamehash}{20b88b0b1828cc290a89141fa766247c}
+      \strng{authorfullhash}{20b88b0b1828cc290a89141fa766247c}
+      \strng{authorfullhashraw}{20b88b0b1828cc290a89141fa766247c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2402.02205}
+      \field{title}{GPT-4V as traffic assistant: An in-depth look at vision language model on complex traffic events}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

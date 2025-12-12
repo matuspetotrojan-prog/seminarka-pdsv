@@ -1,0 +1,345 @@
+\documentclass[12pt]{report}
+\usepackage[slovak]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{biblatex}
+
+\addbibresource{referencie.bib}
+
+
+
+\geometry{a4paper, left=30mm, right=20mm, top=25mm, bottom=25mm}
+
+\begin{document}
+\begin{titlepage}
+\centering
+
+
+{\LARGE SLOVENSKÁ TECHNICKÁ UNIVERZITA}\\[6pt]
+{\large FAKULTA ELEKTROTECHNIKY A INFORMATIKY}\\[2cm]
+
+
+{\huge \textbf{Umelá inteligencia v dopravných systémoch}}\\[1.5cm]
+{\Large Semestrálna práca}\\[1.5cm]
+
+{Štúdijný program: Informatika}\\[0.3cm]
+{Štúdijný odbor: Aplikovaná Informatika}\\[0.3cm]
+{Predmet: Písanie dokumentov a správa verzií}\\[2cm]
+
+\vfill
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\raggedright
+\textbf{Matúš Trojan}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+\textbf{\the\year}
+\end{minipage}
+
+\end{titlepage}
+
+
+\tableofcontents
+
+\newpage
+
+\section*{Abstrakt}
+
+Táto práca skúma integráciu umelej inteligencie (AI) do moderných dopravných systémov. 
+Cieľom práce je analýza technologických aspektov, praktických aplikácií a výziev spojených s implementáciou AI v doprave. 
+Práca vychádza z rozsiahleho výskumného reportu Wisconsinského ministerstva dopravy a ďalších akademických zdrojov.
+
+Práca je štruktúrovaná do piatich hlavných kapitol. 
+V úvode sú definované kľúčové oblasti pôsobenia AI v doprave: manažment, bezpečnosť, operácie, autonómne vozidlá, digitálne dvojčatá a generatívna AI. 
+Technologická časť detailne kľúčové architektúry a modely, vrátane strojového a hlbokého učenia, transformer architektúry a veľkých jazykových modelov. 
+Kapitola o aplikáciách poskytuje prehľad implementácií vo všetkých druhoch dopravy s konkrétnymi príkladmi z praxe. 
+
+Štvrtá kapitola venuje výzvam a etickým aspektom, analyzujúc problémy kvality dát, kybernetickej bezpečnosti, regulačného rámca, transparentnosti algoritmov a sociálno-ekonomických dopadov. 
+Záver sumarizuje hlavné zistenia a navrhuje smerovanie budúceho vývoja.
+
+Hlavným prínosom práce je komplexný prehľad interdisciplinárnej problematiky AI v doprave, ktorý spája technické aspekty s etickými a regulačnými úvahami. 
+Práca dokladuje, že AI má potenciál revolučne zmeniť dopravné systémy, no jej úspešná integrácia si vyžaduje vyvážený prístup k technologickému pokroku a riadeniu súvisiacich rizík.
+
+\noindent\textbf{Kľúčové slová:} umelá inteligencia, inteligentné dopravné systémy, autonómna doprava, generatívna AI, etika umelnej inteligencie, dopravné technológie
+
+\newpage
+\chapter{Úvod}
+Umelá inteligencia (AI) sa v poslednom desaťročí stala jednou z najviac ovplyvňujúcich technológií 21. storočia, ktorá prináša revolúciu v mnohých priemyselných odvetviach vrátane dopravy.
+,,Schopnosť AI analyzovať rozsiahle dátové súbory, rozpoznávať vzory, učiť sa z historických údajov a robiť prediktívne rozhodnutia otvára nové možnosti pre optimalizáciu dopravných systémov'' \cite{tech_report_2025}.
+Integrácia AI do dopravy nie je len technologickou inováciou, ale nevyhnutnosťou pre riešenie dlhodobých výziev, ako sú dopravné preťaženia, bezpečnostné problémy a neefektívne využívanie infraštruktúry.
+
+Dopravné systémy po celom svete sa potýkajú s rastúcou komplexitou, zvyšujúcim sa počtom vozidiel a meniacimi sa potrebami mobility.
+,,Tradičné metódy manažmentu dopravných sietí, ako je manuálne monitorovanie premávky a údržba infraštruktúry, už nestačia na efektívne zvládanie týchto požiadaviek'' \cite{tech_report_2025}.
+Práve v tomto kontexte ponúka AI nové možnosti na optimalizáciu dopravy prostredníctvom pokročilých algoritmov strojového učenia, spracovania obrazu a analýzy veľkých dát.
+\section{Historický kontext a vývoj}
+Využitie AI v doprave má svoje korene v jednoduchších algoritmoch na riadenie dopravy v 70. a 80. rokoch minulého storočia. 
+S rozvojom výpočtového výkonu a dostupnosťou dát v 21. storočí však došlo k významnému zrýchleniu implementácie AI riešení. 
+,,Ministerstvo dopravy USA (USDOT) vo spolupráci s Federálnou správou diaľnic (FHWA), Federálnou železničnou správou (FRA) a Federálnou leteckou správou (FAA) začalo aktívne preskúmať potenciál AI v dopravnom ekosystéme'' \cite{tech_report_2025}.
+Tieto snahy svedčia o systémovom prístupu k integrácii AI do dopravnej infraštruktúry.
+
+\section{Kľúčové oblasti aplikácie AI v doprave}
+
+V súčasnosti sa výskum a implementácia AI v doprave sústredí na šesť hlavných domén, ktoré sú identifikované ako kľúčové pre transformáciu dopravných systémov:
+
+\subsection{Manažment dopravných aktív}
+AI významne zlepšuje efektivitu monitorovania a údržby dopravnej infraštruktúry. 
+,,Aplikácie zahŕňajú automatizované vyhodnocovanie stavu vozoviek a mostov, prediktívnu údržbu a optimalizáciu zdrojov'' \cite{tech_report_2025}. 
+,,Štúdie ukazujú, že AI techniky ako počítačové videnie a hlboké učenie môžu detekovať defekty ako trhliny alebo koróziu s vysokou presnosťou, čím sa znižuje potreba manuálnych inšpekcií a zvyšuje sa bezpečnosť'' \cite{tech_report_2025}.
+
+
+\subsection{Dopravná bezpečnosť}
+AI aplikácie v dopravnej bezpečnosti zahŕňajú systémy na predikciu nehôd, monitorovanie zraniteľných účastníkov premávky a hodnotenie nebezpečenstiev na cestách. 
+,,Techniky počítačového videnia a strojového učenia umožňujú spracovanie dát v reálnom čase a neustále zlepšovanie bezpečnostných systémov'' \cite{tech_report_2025}. 
+,,Hawaii Department of Transportation (HDOT) sa napríklad zapojil do Intersection Safety Challenge implementáciou systémov na báze AI pre detekciu zraniteľných účastníkov premávky a vylepšenie systémov včasného varovania ''\cite{tech_report_2025}.
+
+\subsection{Dopravné operácie}
+,,AI optimalizuje dopravné operácie prostredníctvom aplikácií ako ramp metering, predikcia toku premávky, optimalizácia časovania semaforov a variabilné obmedzenia rýchlosti'' \cite{tech_report_2025}. 
+,,Florida Department of Transportation (FDOT) implementoval nástroje na riadenie premávky využívajúce AI na optimalizáciu časovania semaforov pozdĺž mestských tepien s cieľom znížiť kongescie v špičke'' \cite{tech_report_2025}.
+
+\subsection{Autonómne vozidlá}
+Autonómne vozidlá predstavujú jednu z najtransformujúcejších aplikácií AI v doprave.
+,,Illinois Department of Transportation (IDOT) spustil iniciatívu "Autonomous Illinois", ktorá vytvára pilotné zóny pre testovanie autonómnych vozidiel v reálnom prostredí prostredníctvom spolupráce verejného a súkromného sektora a akademickej obce'' \cite{tech_report_2025}.
+
+\subsection{Digitálne dvojčatá}
+,,Digitálne dvojčatá sú virtuálnymi replikami fyzických aktív alebo systémov, ktoré využívajú údaje v reálnom čase na simuláciu, analýzu a optimalizáciu operácií'' \cite{tech_report_2025}. 
+,,Washington State Department of Transportation (WSDOT) vyvinul digitálne dvojča plávajúceho mosta I-90, čo viedlo k vylepšenému monitorovaniu konštrukcie a odhadovanému návratu investícií až 2000\% ''\cite{tech_report_2025}.
+
+\subsection{Generatívna AI}
+Generatívna AI nachádza uplatnenie v doprave najmä v autonómnej jazde, predikcii premávky a tvorbe realistických simulačných scenárov. 
+,,California Department of Transportation (Caltrans) testuje využitie generatívnej AI na sumarizáciu dokumentov a generovanie interných správ, čím zefektívňuje pracovné postupy a zlepšuje správu znalostí'' \cite{tech_report_2025}.
+
+\chapter{Technologické aspekty AI v doprave}
+
+Umelá inteligencia predstavuje komplexný ekosystém technológií, ktorých úspešná integrácia do dopravy vyžaduje pochopenie základných komponentov.
+Táto kapitola poskytuje prehľad kľúčových technológií poháňajúcich moderné inteligentné dopravné systémy (ITS), s dôrazom na generatívnu AI.
+
+\section{Kľúčové technologické modely}
+
+\subsection{Symbolická vs. dátovo-riadená AI}
+Historický vývoj AI sa delí na dva modely.
+,,Symbolická AI, založená na manuálne vytvorených pravidlách, bola obmedzená v komplexných prostrediach ako doprava'' \cite{EPRS_2019}.
+,,Dátovo-riadená AI, využívajúca strojové učenie a analýzu veľkých dát, umožňuje objavovať vzory a robiť predikcie, čo z nej urobilo jadro moderných ITS'' \cite{EPRS_2019}.
+
+\subsection{Techniky strojového a hlbokého učenia}
+Hlboké učenie, ako podmnožina strojového učenia, umožňuje spracovanie komplexných dát.
+,,Konvolučné neurónové siete (CNN) sú nevyhnutné pre spracovanie obrazu z kamier, zatiaľ čo rekurentné siete (RNN) sú vhodné na analýzu časových radov pre predikciu dopravnej záťaže'' \cite{Rong2025}.
+
+\section{Generatívna AI a veľké jazykové modely}
+Generatívna AI prináša kvalitatívny skok tým, že dokáže generovať nový obsah namiesto len analýzy existujúcich dát.
+
+\subsection{Architektúra Transformers a LLM}
+,,Model Transformer (2017) revolucionalizoval spracovanie sekvenčných dát pomocou attention mechanizmu'' \cite{Vaswani2017}.
+,,Stal sa základom pre veľké jazykové modely (LLM) ako GPT-3, ktoré dokážu komplexne uvažovať a sú použiteľné na interpretáciu dopravných scenárov a analýzu nehôd'' \cite{Brown2020, Rong2025, Zheng2023}.
+
+\subsection{GAN a difúzne modely}
+,,Generatívne adversariálne siete (GAN) vytvárajú realistické obrazy prostredníctvom súboja generátora a diskriminátora'' \cite{Goodfellow2014}.
+,,Difúzne modely generujú obsah postupným odstraňovaním šumu, čo je ideálne pre tvorbu simulácií pre testovanie autonómnych vozidiel'' \cite{Ho2020, Rong2025}.
+
+\section{Integrácia AI do subsystémov ITS}
+,,ITS pozostáva zo štyroch subsystémov: cestného, vozidlového, cestovateľského a riadiaceho'' \cite{Meneguette2018, Alams2016}.
+,,AIGC sa do nich integruje cez tri oblasti: dialóg a uvažovanie, predikcia a rozhodovanie, a multimodálna generácia'' \cite{Rong2025}.
+
+\subsection{Dialóg a uvažovanie}
+,,LLM vylepšujú komunikáciu v ITS. Inteligentní virtuálni asistenti vo vozidlách poskytujú personalizované navigačné pokyny'' \cite{Rong2025}.
+,,Zatiaľ čo automatická analýza nehôd urýchľuje určovanie príčin a zodpovednosti'' \cite{Chen2024, Zhou2024GPT4V}.
+
+\subsection{Predikcia a rozhodovanie}
+,,AI modely optimalizujú časovanie semaforov a dynamické smerovanie premávky'' \cite{Pompigna2022}.
+,,Pokročilé modely ako ST-LLM predpovedajú dopyt po prepravných prostriedkoch s vysokou presnosťou'' \cite{Liu2024STLLM}.
+
+\subsection{Multimodálna generácia}
+,,AIGC generuje fotorealistické scenáre pre testovanie autonómnych vozidiel, čím zvyšuje bezpečnosť a efektivitu testovania'' \cite{Xu2024GenerativeAI, Wang2024MDT}.
+,,Kombinácia s digitálnymi dvojčatami umožňuje simulovať vplyv dopravných opatrení'' \cite{Wang2024MDT}.
+
+\section{Technologická infraštruktúra}
+
+\subsection{Senzory a IoT}
+,,Dopravné systémy sú nasýtené senzormi (kamery, radary, GPS), ktoré tvoria internet vecí a produkujú dáta pre AI analýzy'' \cite{EPRS_2019}.
+
+\subsection{Edge a cloud computing}
+,,Edge computing umožňuje okamžitú analýzu priamo v zariadení, zatiaľ čo cloud computing poskytuje výkon pre trénovanie veľkých AI modelov'' \cite{Rong2025}.
+
+\subsection{Komunikačné technológie}
+,,Komunikácia vozidlo so všetkým (V2X) a 5G siete sú nevyhnutné pre prenos dát v reálnom čase pre kooperatívne autonómne vozidlá'' \cite{EPRS_2019}.
+
+\chapter{Aplikácie AI v dopravných systémoch}
+
+Umelá inteligencia nachádza praktické využitie vo všetkých druhoch dopravy, pričom každý systém má svoje špecifické výzvy.
+Táto kapitola analyzuje kľúčové aplikácie AI v cestnej, železničnej, leteckej a námornej doprave, s dôrazom na reálne implementácie a ich vplyv.
+
+\section{Cestná doprava}
+
+Cestná doprava je kde sa AI aplikuje najviditeľnejšie.
+,,Cestná doprava je jedným z odvetví, kde sa AI najúspešnejšie uplatňuje, otvárajúc úplne novú úroveň spolupráce medzi rôznymi účastníkmi premávky'' \cite{EPRS_2019}.
+
+\subsection{Autonómne vozidlá}
+Vývoj autonómnych vozidiel je jednou z najprelomovejších aplikácií AI.
+,,Autonómne vozidlá sú založené na rôznych senzoroch, ako sú GPS, kamery a radary, v kombinácii s aktuátormi, riadiacimi jednotkami a softvérom'' \cite{EPRS_2019}.
+Niektoré technológie preberajú iba určité funkcie vodiča (ako parkovanie), zatiaľ čo iné sú určené na úplné nahradenie vodiča \cite{EPRS_2019}.
+,,Testovanie plne autonómnych vozidiel prebieha v obmedzenom počte jazdných situácií a oblastí'' \cite{EPRS_2019}.
+
+\subsection{Riadenie premávky}
+,,AI technológie sa tiež uplatňujú pri riadení cestnej premávky, pomáhajúc analyzovať vzory premávky, jej objem a ďalšie faktory'' \cite{EPRS_2019}.
+Tieto systémy poskytujú vodičom informácie o najrýchlejšej trase, čím zmierňujú dopravné zápchy.
+,,AI technológie tiež pomáhajú udržiavať plynulosť premávky prostredníctvom dopravných signálov a semaforov, ktoré sa v reálnom čase prispôsobujú aktuálnym dopravným podmienkam'' \cite{EPRS_2019}.
+
+\section{Železničná doprava}
+
+Železničná doprava využíva AI predovšetkým na automatizáciu, údržbu a bezpečnosť.
+,,AI môže zlepšiť výrobu, prevádzku a údržbu pre železničných operátorov a manažérov infraštruktúry'' \cite{EPRS_2019}.
+
+\subsection{Automatizácia prevádzky vlakov (ATO)}
+,,Jedným z najvýrečnejších príkladov využitia AI v železničnej technike je jej prínos k automatizácii prevádzky vlakov'' \cite{EPRS_2019}.
+Medzinárodná elektrotechnická komisia stanovila štyri štandardné stupne automatizácie vlakov, pričom tretí stupeň zodpovedá bezvodičovej prevádzke a štvrtý autonómnej a neobsluhovanej prevádzke vlakov \cite{EPRS_2019}.
+
+\subsection{Európsky systém riadenia železničnej premávky (ERTMS)}
+,,V EU je prvým kľúčovým krokom k zavedeniu ATO a riešení AI v železničnej doprave nasadenie európskeho systému riadenia železničnej premávky'' \cite{EPRS_2019}.
+Okrem zabezpečenia technickej kompatibility medzi národnými železničnými systémami môže ERTMS v kombinácii s ATO znížiť náklady železničných operátorov a spotrebu energie, ako aj zvýšiť rýchlosť, dochvíľnosť, bezpečnosť a kapacitu tratí \cite{EPRS_2019}.
+
+\subsection{Prediktívna údržba}
+,,Pre železničných operátorov a manažérov infraštruktúry je schopnosť predvídať možné poruchy predtým, ako k nim dôjde, veľmi cenná'' \cite{EPRS_2019}.
+,,Dnes môže AI využiť silu údajov poskytovaných senzormi umiestnenými na kritických komponentoch vlakov alebo infraštruktúry na extrahovanie informácií v správnom čase a odporúčanie opatrení na údržbu'' \cite{EPRS_2019}.
+
+\section{Letecká doprava}
+
+Letecký priemysel využíva AI  už desaťročia, no vstupujeme do novej éry s pokročilými možnosťami.
+,,Použitie AI v prevádzke leteckej dopravy je ešte v počiatkoch'' \cite{EPRS_2019}.
+
+\subsection{Riadenie letovej prevádzky (ATM)}
+,,Pokroky v automatizácii a výpočtovej sile, využívajúce technológie spojené s strojovým učením a modelmi analýzy údajov, sa používajú na zlepšenie riadenia rastúcich objemov leteckej dopravy'' \cite{EPRS_2019}.
+Vývoj systémov bezpilotných leteckých systémov a systémov riadenia premávky bezpilotných systémov pomocou vylepšených výpočtových schopností vytvorí nové príležitosti na zlepšenie existujúcich systémov riadenia premávky, noriem odstupu a návrhu priestoru \cite{EPRS_2019}.
+
+\subsection{Letiskové operácie a bezpečnosť}
+,,AI môže uľahčiť prechod k bezproblémovej bezpečnosti letísk, pretože je schopná spracovať veľké množstvo údajov, a to historických aj v reálnom čase, a detegovať anomálie'' \cite{EPRS_2019}.
+Použitie AI a veľkých dát sa pre letiská stáva čoraz dôležitejšie a používa sa na lepšiu analýzu dopytu na trhu, zlepšenie bezpečnostnej kontroly a prispôsobenie skúsenosti cestujúcich \cite{EPRS_2019}.
+
+\subsection{Výskumné projekty EÚ}
+,,Spoločný podnik SESAR podporil množstvo výskumných projektov týkajúcich sa AI a riadenia leteckej dopravy'' \cite{EPRS_2019}.
+Projekt INTUIT skúmal potenciál strojového učenia a vizuálnej analytiky, zatiaľ čo projekt COPTRA sa zameral na predpovedanie trajektórií bližšie ku štartu alebo počas letu \cite{EPRS_2019}.
+
+\section{Námorná doprava, plavba a prístavy}
+
+Vodná doprava prechádza významnou digitálnou transformáciou s AI.
+,,V priebehu posledných dvadsiatich rokov prešli námorná a vnútrozemská vodná doprava dôležitým vývojom'' \cite{EPRS_2019}.
+
+\subsection{Autonómna plavba}
+,,Hoci medzera medzi súčasnou situáciou a plne autonómnymi loďami je veľká, výskum a pilotné projekty autonómnej plavby pokračujú'' \cite{EPRS_2019}.
+Projekt MUNIN financovaný EÚ vyvinul a otestoval koncept autonómnej obchodnej lode, ktorou primárne riadia automatizované palubné rozhodovacie systémy, ale kontroluje ju vzdialený operátor na pevnine \cite{EPRS_2019}.
+,,Existuje tiež potenciál pre použitie autonómnych lodí v pobrežnej plavbe a na vnútrozemských vodných cestách'' \cite{EPRS_2019}.
+
+\subsection{Inteligentné prístavy}
+,,Použitie pokročilých digitálnych technológií v celom prostredí prístavu je známe ako koncept ,,inteligentného'' alebo ,,smart'' prístavu'' \cite{EPRS_2019}.
+,,Medzi prístavy považované za najpokročilejšie v premenení na inteligentný prístav patria Singapore, Rotterdam, Tianjin a Dubaj'' \cite{EPRS_2019}.
+
+\subsection{Optimalizácia prístavných operácií}
+,,AI je len jednou z niekoľkých kľúčových technológií používaných v inteligentnom prístave'' \cite{EPRS_2019}.
+,,V prístavných prevádzkových systémoch sa používa napríklad na plánovanie vybavenia prístavu (na optimalizáciu použitia žeriavov a vozidiel) a plánovanie dostupnosti kotvišť'' \cite{EPRS_2019}.
+,,Prístav Rotterdam aplikuje AI na údaje na určenie odhadovaného času príchodu a odchodu lode, čo pomohlo znížiť čakaciu dobu pre plavidlá v prístave o 20\%'' \cite{EPRS_2019}.
+
+\subsection{Výzvy v námornej doprave}
+,,Pre akékoľvek použitie AI sú zber, kvalita, konzistentnosť a objem dostupných údajov prvoradé'' \cite{EPRS_2019}.
+,,Niektoré problémy s kvalitou a množstvom údajov vznikajú pri údajoch o výkone a navigácii lodí zhromažďovaných senzormi a systémami na získavanie údajov'' \cite{EPRS_2019}.
+,,Údaje môžu byť chybné kvôli poruchám senzorov alebo ľudskej intervencii'' \cite{EPRS_2019}.
+
+\chapter{Výzvy a etické aspekty implementácie AI v doprave}
+
+Integrácia umelej inteligencie do dopravy prináša okrem príležitostí aj zložité výzvy. 
+Táto kapitola analyzuje problémy technického a etického charakteru.
+
+\section{Technické a bezpečnostné výzvy}
+
+Kvalita dát je základným predpokladom úspechu AI systémov. 
+,,Pre akékoľvek použitie AI sú zber, kvalita, konzistentnosť a objem dostupných údajov prvoradé'' \cite{EPRS_2019}. 
+V praxi sa často stretávame s neúplnými alebo nekonzistentnými dátami z rôznych zdrojov.
+
+Kybernetická bezpečnosť predstavuje kritickú oblasť. 
+,,AI aplikácie v doprave vyvolávajú obavy týkajúce sa kybernetickej bezpečnosti, najmä v kontexte autonómnych vozidiel a systémov riadenia dopravy'' \cite{EPRS_2019}. 
+Úspešný útok môže mať katastrofálne následky.
+
+Výskum generatívnej AI identifikuje ďalšie riziká. 
+,,AIGC je náchylné k problému ,,halucinácií'', kde generovaný obsah nemusí zodpovedať skutočnosti'' \cite{Rong2025}. 
+V dopravnom prostredí môže nepresná detekcia alebo chybné rozhodovanie viesť k nehodám.
+
+\section{Legislatívne a regulačné výzvy}
+
+Určenie zodpovednosti pri nehodách autonómnych systémov je komplexnou otázkou. 
+,,V prípade nehody je ďalšou výzvou, ktorú je potrebné riešiť, zodpovednosť'' \cite{EPRS_2019}. 
+Súčasné pravidlá predpokladajú ľudského vodiča, čo sa mení s autonómnymi systémami.
+
+EÚ aktívne pracuje na prispôsobení regulačného rámca. 
+,,V decembri 2018 Komisia zverejnila návrh etických smerníc AI a posudzuje, či sú národné a európske bezpečnostné a zodpovednostné rámce vhodné'' \cite{EPRS_2019}. 
+Harmónia medzinárodných predpisov je kľúčová pre globálnu implementáciu.
+
+\section{Etické problémy}
+
+Trolley problém v autonómnych vozidlách rozdeľuje odbornú verejnosť. ,,Keď čelia situáciám život verzus život, otázka, ako by sa mal rozhodovať algoritmus AI v plne automatizovanom vozidle, rozdeľuje názory'' \cite{EPRS_2019}. 
+Etické nastavenie algoritmov vyžaduje širokú diskusiu.
+
+Transparentnosť rozhodovania je základom dôvery. ,,Princíp transparentnosti by mal byť dodržaný tým, že by malo byť vždy možné poskytnúť zdôvodnenie akéhokoľvek rozhodnutia prijatého s pomocou AI'' \cite{EPRS_2019}. 
+Problém ,,čiernej skrinky'' komplikuje pochopenie rozhodovacích procesov.
+
+Generatívna AI prináša nové etické výzvy. 
+,,Aplikácia AIGC vyvoláva právne a etické obavy... modely nemusia plne dodržiavať existujúce predpisy a potenciálne zraniteľnosti alebo nepresné odpovede môžu viesť k nehodám'' \cite{Rong2025}. 
+Ochrana duševného vlastníctva a ochrana súkromia sú ďalšie problémy.
+
+\section{Sociálno-ekonomické dopady}
+
+AI mení štruktúru pracovného trhu v dopravnom sektore. 
+,,Predpokladá sa, že AI prispieje k vytvoreniu nových pracovných miest, zániku iných a zmene väčšiny'' \cite{EPRS_2019}. 
+Zatiaľ čo niektoré pozície môžu zaniknúť, vznikajú nové role vyžadujúce špecifické zručnosti.
+
+Prijatie technológií verejnosťou je kľúčové pre ich úspech. 
+,,Nedávny prieskum Eurobarometer o autonómnych systémoch ukázal, že respondenti sú pohodlnejší s autonómnymi vozidlami prepravujúcimi tovar ako s cestovaním v takom vozidle sami'' \cite{EPRS_2019}.
+Dôvera verejnosti sa buduje pomaly a vyžaduje transparentnosť.
+
+Generatívna AI prináša výzvy v oblasti ľudsko-strojovej spolupráce. 
+,,S rozvojom AIGC sú tradičné pracovné trhy výrazne narušené... úlohy ľudí sa už neobmedzujú na vykonávanie opakujúcich sa úloh, ale teraz vyžadujú schopnosť efektívne spolupracovať s novými technológiami'' \cite{Rong2025}. 
+Táto transformácia si vyžaduje aktívne prispôsobenie vzdelávacích systémov.
+
+\section{Budúce smerovanie a riešenia}
+
+Medzinárodná spolupráca a štandardizácia sú nevyhnutné. 
+,,Európsky parlament vyzval na vytvorenie európskej agentúry pre robotiku a AI a požiadal Komisiu, aby predložila návrh legislatívneho nástroja o právnych otázkach súvisiacich s vývojom a používaním robotiky a AI'' \cite{EPRS_2019}. 
+Koordinovaný prístup znižuje fragmentáciu.
+
+Vzdelávanie a rekvalifikácia sú kľúčové pre prispôsobenie sa zmene. 
+,,Títo vodiči budú potrebovať rekvalifikáciu, aby si našli inú prácu'' \cite{EPRS_2019}.
+Transformácia pracovného trhu si vyžaduje aktívne opatrenia v oblasti vzdelávania a odbornej prípravy.
+
+Budúci výskum by sa mal sústrediť na komplexné riešenia. 
+,,Existujúci výskum sa väčšinou zameriava na špecifické subsystémy a technológie... budúci výskum by sa mal zamerať na vývoj univerzálneho veľkého modelu, ktorý integruje tieto tri AIGC technológie a koordinuje štyri subsystémy ITS'' \cite{Rong2025}. 
+
+\chapter*{Záver}
+\addcontentsline{toc}{chapter}{Záver}
+
+Integrácia AI do dopravy predstavuje proces s možnosťami pre efektivitu, bezpečnosť a udržateľnosť, ale aj s výraznými výzvami. Táto práca poskytla prehľad stavu, technológií a aplikácií AI vo všetkých dopravných odvetviach.
+
+Hlavný prínos AI spočíva v schopnosti spracovať veľké objemy dát v reálnom čase, čo umožňuje:
+\begin{itemize}
+    \item \textbf{Optimalizáciu prevádzky} adaptívnym riadením premávky a inteligentným plánovaním
+    \item \textbf{Zvýšenie bezpečnosti} systémami na predikciu nehôd a podporu autonómnych systémov
+    \item \textbf{Zlepšenie komfortu} personalizovanými službami a znížením zápch
+\end{itemize}
+
+Napriek potenciálu existujú kritické bariéry:
+\begin{enumerate}
+    \item \textbf{Technologické:} Spoľahlivosť systémov, kvalita dát a kybernetická bezpečnosť
+    \item \textbf{Regulačné:} Chýbajúci legislatívny rámec pre autonómne systémy a problematika zodpovednosti
+    \item \textbf{Etické:} Ochrana súkromia, ,,problém čiernej skrinky'' a dôvera verejnosti
+\end{enumerate}
+
+Budúci vývoj by sa mal zamerať na adaptívne AI modely, medzinárodnú spoluprácu pri tvorbe noriem, vzdelávanie pracovnej sily a výskum pokročilých technológií ako LLM.
+
+AI už nie je víziou, ale reálnym nástrojom, ktorý mení dopravu. 
+Úspešná integrácia si vyžaduje komplexný prístup zohľadňujúci technické, etické a sociálne aspekty.
+\newpage
+\printbibliography[title={Zoznam referencií}]
+\section*{Upozornenie o používaní AI}
+
+V tejto práci boli vygenerované úvod, abstrakt a záverečná časť s pomocou veľkého jazykového modelu DeepSeek.
+Obsahová štruktúra, citácie a analytická časť práce (kapitoly 2-4) sú výsledkom vlastnej práce autora a analýzy zdrojov.
+\end{document}
