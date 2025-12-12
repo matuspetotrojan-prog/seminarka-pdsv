@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber umela_inteligencia_v_dopravnych_systemoch"] 1765553776.89869 "umela_inteligencia_v_dopravnych_systemoch.bcf" "umela_inteligencia_v_dopravnych_systemoch.bbl" "umela_inteligencia_v_dopravnych_systemoch" 1765553799.76814 0
+["biber umela_inteligencia_v_dopravnych_systemoch"] 1765553776.89869 "umela_inteligencia_v_dopravnych_systemoch.bcf" "umela_inteligencia_v_dopravnych_systemoch.bbl" "umela_inteligencia_v_dopravnych_systemoch" 1765555840.84436 0
   "referencie.bib" 1765553761 6437 c2cf160ed9b37bbec61f7b599ea431b0 ""
-  "umela_inteligencia_v_dopravnych_systemoch.bcf" 1765553799 114040 79662aaa8d73598f74b72727117791a6 "pdflatex"
+  "umela_inteligencia_v_dopravnych_systemoch.bcf" 1765555840 114040 79662aaa8d73598f74b72727117791a6 "pdflatex"
   (generated)
   "umela_inteligencia_v_dopravnych_systemoch.bbl"
   "umela_inteligencia_v_dopravnych_systemoch.blg"
   (rewritten before read)
-["pdflatex"] 1765553796.28961 "c:/Users/matus/OneDrive/Desktop/skola/pisanie dokumentov a sprava verzii/semestralka/umela_inteligencia_v_dopravnych_systemoch.tex" "umela_inteligencia_v_dopravnych_systemoch.pdf" "umela_inteligencia_v_dopravnych_systemoch" 1765553799.76979 0
+["pdflatex"] 1765555836.0432 "c:/Users/matus/OneDrive/Desktop/skola/pisanie dokumentov a sprava verzii/semestralka/umela_inteligencia_v_dopravnych_systemoch.tex" "umela_inteligencia_v_dopravnych_systemoch.pdf" "umela_inteligencia_v_dopravnych_systemoch" 1765555840.84656 0
   "C:/Users/matus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765551512 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/matus/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1765306582 31952 4fbb767681992b283d70cb95c994dd04 ""
   "C:/Users/matus/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1765305074 40136 7f021b0c84b0591117620be15069ba98 ""
@@ -94,14 +94,14 @@
   "C:/Users/matus/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty" 1280941015 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "C:/Users/matus/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "autonomouscarsensors.png" 1765551620 249779 d0186cf98a131d095cbcea399a8d9313 ""
-  "c:/Users/matus/OneDrive/Desktop/skola/pisanie dokumentov a sprava verzii/semestralka/umela_inteligencia_v_dopravnych_systemoch.tex" 1765553791 27675 452952794e7124e884657894442a1a2d ""
+  "c:/Users/matus/OneDrive/Desktop/skola/pisanie dokumentov a sprava verzii/semestralka/umela_inteligencia_v_dopravnych_systemoch.tex" 1765555834 27668 599b6fde7d845503283956f333e1372b ""
   "digitalnedvojca.png" 1765552145 150005 da9edc9dab80da1cddee684c06bee2a5 ""
-  "umela_inteligencia_v_dopravnych_systemoch.aux" 1765553799 13739 b0be19111a9856dfe9b40423f9cfe68d "pdflatex"
+  "umela_inteligencia_v_dopravnych_systemoch.aux" 1765555839 13739 b0be19111a9856dfe9b40423f9cfe68d "pdflatex"
   "umela_inteligencia_v_dopravnych_systemoch.bbl" 1765553781 35014 59412f865c0019c4c0f19feeac4a14b4 "biber umela_inteligencia_v_dopravnych_systemoch"
-  "umela_inteligencia_v_dopravnych_systemoch.lof" 1765553799 833 3c6dbd24bb22825d67f3e5ba1acc8e3c "pdflatex"
-  "umela_inteligencia_v_dopravnych_systemoch.run.xml" 1765553799 2563 96b0fcdc8d1f8128b2e3864a940aa6a6 "pdflatex"
-  "umela_inteligencia_v_dopravnych_systemoch.tex" 1765553791 27675 452952794e7124e884657894442a1a2d ""
-  "umela_inteligencia_v_dopravnych_systemoch.toc" 1765553799 3828 072b4667658f08c4388852b1e6526d07 "pdflatex"
+  "umela_inteligencia_v_dopravnych_systemoch.lof" 1765555840 833 3c6dbd24bb22825d67f3e5ba1acc8e3c "pdflatex"
+  "umela_inteligencia_v_dopravnych_systemoch.run.xml" 1765555840 2563 96b0fcdc8d1f8128b2e3864a940aa6a6 "pdflatex"
+  "umela_inteligencia_v_dopravnych_systemoch.tex" 1765555834 27668 599b6fde7d845503283956f333e1372b ""
+  "umela_inteligencia_v_dopravnych_systemoch.toc" 1765555840 3828 072b4667658f08c4388852b1e6526d07 "pdflatex"
   (generated)
   "umela_inteligencia_v_dopravnych_systemoch.aux"
   "umela_inteligencia_v_dopravnych_systemoch.bcf"
